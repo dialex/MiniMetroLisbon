@@ -1,4 +1,5 @@
 {
+  "debugShowCityAreas": true,
   "id": "lisbon",
   "customName": "Lisbon",
   "customDescription": "'Bem-vindo' to Lisbon, a capital with an old metro serving both tourists and workers.",
@@ -15,5 +16,66 @@
     "duration": 55,
     "earlyZoom": 0.5,
     "lateZoom": 0.5
+  },
+  "passengerSpawnScale": 1.0,
+  "upgrades": {
+    "initial": ["Line", "Locomotive", "Locomotive", "Crossing"],
+    "unlocks": [
+      [
+        {
+          "type": "Locomotive",
+          "max": 0,
+          "count": 1,
+          "weight": 1.0,
+          "week": 0,
+          "maxWeek": 4
+        },
+        {
+          "type": "Locomotive",
+          "max": 0,
+          "count": 2,
+          "weight": 1.0,
+          "week": 5
+        },
+        {
+          "type": "Tram",
+          "max": 0,
+          "count": 3,
+          "weight": 1.0,
+          "week": 5
+        }
+      ],
+      [
+        {
+          "type": "Line",
+          "max": 4,
+          "count": 1,
+          "weight": 0.5,
+          "week": 0
+        },
+        {
+          "type": "Crossing",
+          "max": 0,
+          "count": 2,
+          "weight": 1.0,
+          "week": 0
+        },
+        {
+          "type": "Carriage",
+          "max": 0,
+          "count": 1,
+          "weight": 1.0,
+          "week": 0
+        },
+        {
+          "type": "Interchange",
+          "max": 0,
+          "count": 1,
+          "weight": 0.5,
+          "week": 0
+        }
+      ]
+    ],
+    "numOptions": [2, 3]
   }
 }
