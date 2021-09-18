@@ -1,0 +1,9 @@
+{
+  "id": "lisbon",
+  "customName": "Lisbon",
+  "customDescription": "'Bem-vindo' to Lisbon, a capital with an old metro serving both tourists and workers.",
+  "customLocalName": "Lisboa",
+  "customLocalNameLocale": "pt_PT",
+  "crossingStyle": "Bridge",
+  "lineCount": 4
+}
