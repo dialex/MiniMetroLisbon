@@ -7,4 +7,13 @@
   "crossingStyle": "Bridge",
   "lineCount": 4,
   "theme": "alfacinha",
+  "origin": [0, 0],
+  "zoom": {
+    "start": 1.3,
+    "end": 0.4,
+    "delay": 1,
+    "duration": 55,
+    "earlyZoom": 0.5,
+    "lateZoom": 0.5
+  }
 }
