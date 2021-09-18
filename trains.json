@@ -1,0 +1,27 @@
+{
+	"id": "VLTCarioca",
+	"capacity": 6,
+	"locomotives": [
+		{
+			"type": "Locomotive",
+			"speed": 360,
+			"acceleration": 120,
+			"deceleration": 300,
+			"capacity": 6
+		},
+		{
+			"type": "Shinkansen",
+			"speed": 480,
+			"acceleration": 180,
+			"deceleration": 300,
+			"capacity": 8
+		},
+		{
+			"type": "Tram",
+			"speed": 180,
+			"acceleration": 200,
+			"deceleration": 200,
+			"capacity": 4
+		}
+	]
+}

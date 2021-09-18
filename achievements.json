@@ -1,0 +1,34 @@
+{
+	"achievements": [
+		{
+			"id": "rio-centro-1", 
+			"type": "Score", 
+			"city": "rio-centro", 
+			"score": 1400, 
+			"icon": "passenger", 
+			"difficultyPriority": 0,
+			"customDescription": "Score 1400 points in Rio Centro.",
+			"restrictions": [],
+		},
+		{
+			"id": "rio-centro-2", 
+			"type": "Score", 
+			"city": "rio-centro", 
+			"score": 2000, 
+			"icon": "passenger", 
+			"difficultyPriority": 0,
+			"customDescription": "Score 2000 points with no more than three LRT lines.",
+			"restrictions": [{"max": 6, "type": "Line", "scope": "Global"}],
+		},
+		{
+			"id": "rio-centro-3", 
+			"type": "Day", 
+			"city": "rio-centro", 
+			"day": 70, 
+			"icon": "passenger", 
+			"difficultyPriority": 0,
+			"customDescription": "Reach Day 70 without using any Loops.",
+			"restrictions": [{"max": 0, "type": "Loop", "scope": "Line"}],
+		},
+	],
+}
