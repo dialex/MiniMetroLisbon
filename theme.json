@@ -1,0 +1,41 @@
+{
+  "name": "alfacinha",
+  "backgroundColor": {
+    "day": [255, 255, 255],
+    "night": [53, 49, 54]
+  },
+  "peepColor": {
+    "day": [68, 51, 51],
+    "night": [242, 242, 242]
+  },
+  "waterColor": {
+    "internal": {
+      "day": [228, 236, 244],
+      "night": [228, 236, 244]
+    },
+    "outline": {
+      "day": [228, 236, 244],
+      "night": [228, 236, 244]
+    },
+    "outlineWidth": -1.0,
+    "previewOutlineWidth": -1.0
+  },
+  "stationColor": {
+    "internal": {
+      "day": [255, 255, 255],
+      "night": [53, 49, 54]
+    },
+    "outline": {
+      "day": [10, 4, 4],
+      "night": [242, 242, 242]
+    },
+    "outlineWidth": 4.0
+  },
+  "lineColors": [
+    { "day": [0, 169, 166] },
+    { "day": [78, 132, 196] },
+    { "day": [253, 184, 19] },
+    { "day": [238, 44, 116] }
+  ],
+  "obstacles": []
+}
